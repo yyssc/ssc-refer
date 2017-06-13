@@ -1,3 +1,10 @@
+## [v0.1.37]
+> 2017-06-13
+
+- **Chore:** Upgrade bee-table from 0.2.0 to 0.2.2
+
+[v0.1.37]: https://github.com/yyssc/ssc-refer2/compare/v0.1.36...v0.1.37
+
 ## [v0.1.36]
 > 2017-06-08
 
