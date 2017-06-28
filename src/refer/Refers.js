@@ -31,8 +31,6 @@ import request from 'superagent';
 
 import {DOWN, ESC, RETURN, TAB, UP} from './utils/keyCode';
 
-
-
 /**
  * Refer
  */
