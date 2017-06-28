@@ -1,3 +1,10 @@
+## [master]
+> 2017-06-28
+
+- **Chore:** Replace backend host with api.yyssc.org
+
+[master]: https://github.com/yyssc/ssc-refer2/compare/v0.1.37...master
+
 ## [v0.1.37]
 > 2017-06-13
 
