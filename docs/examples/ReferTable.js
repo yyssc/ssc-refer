@@ -1,13 +1,9 @@
-/**
- * Created by Tiger on 17/2/15.
- */
-
-const defaultData =   [{
-  "id": "02EDD0F9-F384-43BF-9398-5E5781DAC5D0",
-  "code": "0502",
-  "name": "作老师",
-  "pid": "",
-  "isLeaf": "true"
+const defaultData = [{
+  id: '02EDD0F9-F384-43BF-9398-5E5781DAC5D0',
+  code: '0502',
+  name: '作老师',
+  pid: '',
+  isLeaf: 'true'
 }];
 
 const multiple = true;
@@ -16,10 +12,10 @@ const columns = [
   { title: '名称', dataIndex: 'name', key: 'name', width: 100 },
   { title: '编码', dataIndex: 'code', key: 'code', width: 100 },
   { title: '邮箱', dataIndex: 'email', key: 'email', width: 200 },
-]
+];
 
-const referConditions = {"refCode":"user","refType":"table","displayFields":[]};
-const referDataUrl = "http://10.3.14.239/ficloud/refbase_ctr/queryRefJSON";
+const referConditions = { refCode: 'user', refType: 'table', displayFields: [] };
+const referDataUrl = 'http://api.yyssc.org/ficloud/refbase_ctr/queryRefJSON';
 
 const ReferExample = React.createClass({
   getInitialState() {
@@ -32,7 +28,6 @@ const ReferExample = React.createClass({
   },
 
   render() {
-
     return (
       <div>
         <Refers
@@ -61,10 +56,7 @@ const ReferExample = React.createClass({
   _handleBlur(e) {
     // console.log('blurblurblur'+e);
     //console.log(JSON.stringify(this._myrefers.getInstance().hideRefers()));
-    
   },
-  
-
 
 });
 
